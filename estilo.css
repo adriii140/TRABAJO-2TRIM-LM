@@ -12,7 +12,7 @@ body {
 
 #adri {
     background-image: linear-gradient(#D50A0A, #013369);
-    position:fixed;
+    position:sticky;
     z-index: 1000;
 
     left: 0;
@@ -107,15 +107,26 @@ figure{
 }
 /*HASTA AQUI LOS CAMBIOS DE BETO  EN EL HEADER*/    
 /*Footer adri*/
-footer>section{
-    background-color: #1F1F1F;
+footer section:first-child{
+    background-color: #1F1F1F; 
+    height: 26rem;
+}
+footer>section div:nth-child(2) figure img{
+    width: 4rem;
+}
+
+#logos{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 13rem;
+    border: 1px tomato solid;
+    height: 20rem;
 
 }
-footer>section figure img{
-    width: 4rem;
+#afc{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
 }
 
