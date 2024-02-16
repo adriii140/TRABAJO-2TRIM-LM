@@ -99,4 +99,18 @@ figure{
     margin-left: 1.3em;
 }
 /*HASTA AQUI LOS CAMBIOS DE BETO  EN EL HEADER*/    
-
+#betoFoot{
+    width: 100%;
+    height: 13em;
+    border: 1px solid tomato;
+    background-color: #013369;
+    text-align: center;
+}
+#betoFoot p> span{
+    margin-top: 1em;
+    color: #D50A0A;
+    font-style: italic;
+}
+#betoFoot figure img{
+    width: 8em;
+}
