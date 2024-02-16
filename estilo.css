@@ -1,4 +1,42 @@
+
 @font-face {
-    font-family: lato;
-    src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    font-family: 'Lato';
+    src: url(./fuentes/Lato/Lato-Regular.ttf);
+}
+
+body {
+    font-family: Lato;
+    margin: 0 auto;
+}
+
+#adri {
+    background-image: linear-gradient(#D50A0A, #013369);
+    position:fixed;
+    width: 100%;
+}
+
+main{
+    height: 50rem;
+}
+#adri>div {
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#adri>div>figure img {
+    height: 3.7rem;
+}
+
+#adri a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+#adri a:hover {
+    text-decoration: underline;
 }
