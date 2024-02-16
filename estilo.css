@@ -4,6 +4,7 @@
     src: url(./fuentes/Lato/Lato-Regular.ttf);
 }
 
+
 body {
     font-family: Lato;
     margin: 0 auto;
@@ -13,8 +14,6 @@ body {
     background-image: linear-gradient(#D50A0A, #013369);
     position:fixed;
     z-index: 1000;
-    left: 0;
-   
     width: 100%;
 }
 
