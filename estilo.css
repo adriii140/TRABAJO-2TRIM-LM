@@ -109,21 +109,21 @@ figure{
 /*Footer adri*/
 footer section:first-child{
     background-color: #1F1F1F; 
-    height: 26rem;
+    height: 20rem;
 }
 footer>section div:nth-child(2) figure img{
-    width: 4rem;
+    width: 3.7rem;
 }
 
 #logos{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px tomato solid;
-    height: 20rem;
+    align-items: center;
+    height: 19rem;
 
 }
-#afc{
+#ligas{
     display: flex;
     justify-content: space-around;
     width: 100%;
