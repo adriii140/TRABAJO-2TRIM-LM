@@ -22,9 +22,6 @@ body {
     width: 100%;
 }
 
-main{
-    height: 50rem;
-}
 #adri>div {
     padding: 0.3rem;
     display: flex;
