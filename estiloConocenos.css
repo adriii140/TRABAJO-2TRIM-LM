@@ -1,8 +1,4 @@
-body{
-   width: 90%;
-   border: #013369 1px solid;
-   box-shadow: 5px 5px 12px #00000035;
-}
+
 main>header{
     text-align: center;
     text-transform: uppercase;
@@ -14,13 +10,14 @@ justify-content: space-between;
 padding: 1rem;
 
 }
-
 #estadio>figure img{
-    width: 96%;
+    width: 40%;
     height: 26rem;
+    float: left;
+    margin-right: 2rem;
 }
-#texto1{
-    width: 58%;
+article{
+    box-shadow: black 20px 15px 15px;
 }
 
 h3{

@@ -4,21 +4,19 @@
     src: url(./fuentes/Lato/Lato-Regular.ttf);
 }
 
-
 body {
     font-family: Lato;
     margin: 0 auto;
+    width: 90%;
+    border: #013369 1px solid;
+    box-shadow: 5px 5px 12px #00000035;
 }
 
 #adri {
     background-image: linear-gradient(#D50A0A, #013369);
     position:sticky;
-    z-index: 1000;
-
     left: 0;
     top: 0;
-
-
     width: 100%;
 }
 
