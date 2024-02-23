@@ -4,7 +4,7 @@ main>header{
     text-transform: uppercase;
     color: #013369 ;
 }
-header~article{
+article>div{
 display: flex;
 justify-content: space-between;
 padding: 1rem;
@@ -17,7 +17,7 @@ padding: 1rem;
     margin-right: 2rem;
 }
 article{
-    box-shadow: black 20px 15px 15px;
+    box-shadow: black 0px 0px 1em;
 }
 
 h3{
