@@ -1,0 +1,45 @@
+img{
+    width:20em;
+}
+#tienda{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+
+}
+#tienda section{
+    border: 1px solid tomato;
+    text-align: center;
+    padding: 2em;
+}
+#tienda section~section{
+    background-color: #013369;
+}
+#tienda section button{
+    width: 90%;
+    background-color: #D50A0A;
+    padding: 1.5em;
+    border-radius: 2em;
+}
+
+#tienda2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#tienda2 div{
+    text-align: center;
+    width: 80%;
+    padding: 3em;
+    border: 1px solid tomato;
+}
+#tienda2 section~section{
+    background-color: #013369;
+    height: 15em;
+    
+}
+#tienda2 section{
+    padding: 2em;
+}
