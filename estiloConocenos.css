@@ -1,4 +1,7 @@
 
+main{
+    font-size: 11pt;
+}
 main>header{
     text-align: center;
     text-transform: uppercase;
@@ -12,12 +15,15 @@ padding: 1rem;
 }
 #estadio>figure img{
     width: 40%;
-    height: 26rem;
+    height: 23rem;
     float: left;
     margin-right: 2rem;
+    margin-top: 1rem;
+    
 }
 article{
     box-shadow: black 0px 0px 1em;
+    padding: 1rem;
 }
 
 h3{
@@ -32,7 +38,7 @@ span{
 }
 #sec2{
     width: 95%;
-    margin: auto;
+    margin-top:-1.4rem ;
 }
 #sec2 ul{
     margin-left: 2rem;
@@ -40,9 +46,19 @@ span{
 #lista2 li{
     margin-bottom: 1rem;
 }
-#li1{
+.balon{
     list-style-type: "🏉";
 }
+#reloj{
+    list-style-type: "⌛";
+}
+.muñeco{
+    list-style-type: "🏃‍♂️";
+}
+#redFlag{
+    list-style-type: "🚩";
+}
+
 
 
 
