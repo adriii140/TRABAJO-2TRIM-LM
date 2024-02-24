@@ -1,0 +1,51 @@
+body{
+   width: 90%;
+   border: #013369 1px solid;
+   box-shadow: 5px 5px 12px #00000035;
+}
+main>header{
+    text-align: center;
+    text-transform: uppercase;
+    color: #013369 ;
+}
+header~article{
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+
+}
+
+#estadio>figure img{
+    width: 96%;
+    height: 26rem;
+}
+#texto1{
+    width: 58%;
+}
+
+h3{
+    color: #D50A0A;
+}
+h3~ul li{
+    margin-bottom: 1rem;
+}
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#sec2{
+    width: 95%;
+    margin: auto;
+}
+#sec2 ul{
+    margin-left: 2rem;
+}
+#lista2 li{
+    margin-bottom: 1rem;
+}
+#li1{
+    list-style-type: "🏉";
+}
+
+
+

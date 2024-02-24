@@ -1,0 +1,80 @@
+img{
+    width:35em;
+}
+figure{
+    margin: 0;
+}
+#tienda{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+
+}
+#tienda section{
+    text-align: center;
+    padding: 2em;
+}
+#tienda section~section{
+    background-color: #013369;
+    padding-top:3.5em ;
+}
+#tienda section~section p{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+#tienda section~section h2{
+    margin-bottom: 2em;
+}
+#tienda section~section h1{
+    font-size: 25pt;
+    text-transform: uppercase;
+}
+#tienda section button{
+    width: 90%;
+    background-color: #D50A0A;
+    padding: 2rem;
+    border-radius: 2em;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+#tienda2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#tienda2 div{
+    text-align: center;
+    width: 47%;
+    
+}
+#tienda2 div section~section{
+    height: 22rem;
+}
+#tienda2 div p{
+    font-size: small;
+    color: #D50A0A;
+    height: 4rem;
+}
+#tienda2 section~section{
+    background-color: #013369;
+    
+}
+#tienda2 div h1{
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+#tienda2 div button{
+    width: 90%;
+    padding: 2rem;
+    background-color: #D50A0A;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+#tienda2 section{
+    padding: 2em;
+}
