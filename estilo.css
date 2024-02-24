@@ -142,3 +142,9 @@ footer>section div:nth-child(2) figure img{
 #betoFoot figure img{
     width: 8em;
 }
+
+main>header{
+    text-align: center;
+    text-transform: uppercase;
+    color: #013369 ;
+}

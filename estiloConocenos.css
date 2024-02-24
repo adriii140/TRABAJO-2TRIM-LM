@@ -2,11 +2,7 @@
 main{
     font-size: 11pt;
 }
-main>header{
-    text-align: center;
-    text-transform: uppercase;
-    color: #013369 ;
-}
+
 article>div{
 display: flex;
 justify-content: space-between;
