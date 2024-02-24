@@ -8,7 +8,7 @@ body {
     font-family: Lato;
     margin: 0 auto;
     width: 90%;
-    box-shadow: 5px 5px 12px #00000035;
+    box-shadow: 5px 5px 15px #00000035;
     background-color: #eeeeee;
 }
 
@@ -142,9 +142,44 @@ footer>section div:nth-child(2) figure img{
 #betoFoot figure img{
     width: 8em;
 }
+/*AQUÍ COMIENZAN LOS ESTILOS DEL MAIN*/
 
 main>header{
     text-align: center;
     text-transform: uppercase;
     color: #013369 ;
 }
+
+main>article figure img{
+    width: 100%;
+    height: 50rem;
+}
+main article~article{
+    display: flex;
+    justify-content: space-between;
+}
+main article~article section{
+    width: 27%;
+    border: 1px solid tomato;
+    padding: 1rem;
+    background-color: #D50A0A;
+}
+main article~article section:first-child{
+    padding: 2rem;
+    text-align: center;
+}
+#textoMahomes{
+    text-align: left;
+}
+#fotoMahomes{
+    width: 10rem;
+    height: 7rem;
+    float: right;
+    padding: 1rem;
+}
+
+main article~article section~section iframe{
+    width: 100%;
+    height: 20rem;
+}
+
