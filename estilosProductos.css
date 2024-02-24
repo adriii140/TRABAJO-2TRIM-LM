@@ -1,45 +1,53 @@
-img{
-    width:35em;
+.imagenesProductos{
+    width:30rem;
 }
-figure{
-    margin: 0;
-}
+
 #tienda{
     display: flex;
     width: 80%;
-    margin: auto;
-    margin-bottom: 2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
 
 }
 #tienda section{
     text-align: center;
-    padding: 2em;
+    padding: 3em;
+}
+#tienda section:first-child{
+    padding: 0;
+    background-color: white;
+}
+#tienda section:first-child img{
+    width: 28rem;
 }
 #tienda section~section{
     background-color: #013369;
     padding-top:3.5em ;
+    width: 60%;
 }
 #tienda section~section p{
     margin-top: 3em;
     margin-bottom: 2em;
 }
 #tienda section~section h2{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 #tienda section~section h1{
-    font-size: 25pt;
+    font-size: 21pt;
     text-transform: uppercase;
 }
 #tienda section button{
-    width: 90%;
+    width: 99%;
     background-color: #D50A0A;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 2em;
     border: 1px solid black;
     text-transform: uppercase;
+    color: white;
 }
 
-
+/*AQUI COMIENZAN LOS AJUSTES DEL OTRO ARTICLE*/
 #tienda2{
     width: 80%;
     margin:  auto;
@@ -75,14 +83,26 @@ figure{
     font-size: 20pt;
 }
 #tienda2 div button{
-    width: 90%;
-    padding: 2rem;
+    width: 99%;
+    padding: 1.5rem;
     background-color: #D50A0A;
     text-transform: uppercase;
     border-radius: 2rem;
     border: 1px solid black;
     margin-top: 1rem;
+    color: white ;
 }
 #tienda2 section{
     padding: 3em;
+}
+
+#tienda2 section:first-child{
+    padding: 0;
+    background-color: white;
+}
+
+
+.botonProductos:hover{
+    background-color: gray !important;
+    cursor: pointer;
 }
