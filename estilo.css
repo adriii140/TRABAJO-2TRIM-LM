@@ -102,7 +102,7 @@ figure{
 /*HASTA AQUI LOS CAMBIOS DE BETO  EN EL HEADER*/    
 /*Footer adri*/
 footer{
-    margin-top: -1em;
+    position: abolute;
 }
 footer section:first-child{
     background-color: #1F1F1F; 

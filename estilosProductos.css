@@ -8,7 +8,7 @@ figure{
     display: flex;
     width: 80%;
     margin: auto;
-    
+    margin-bottom: 2rem;
 
 }
 #tienda section{
@@ -39,29 +39,37 @@ figure{
     text-transform: uppercase;
 }
 
+
 #tienda2{
     width: 80%;
-    margin: auto;
+    margin:  auto;
     display: flex;
     justify-content: space-between;
+
 }
 #tienda2 div{
     text-align: center;
     width: 47%;
     
 }
-#tienda2 div section~section{
+/*#tienda2 div section~section{
     height: 22rem;
-}
+}*/
 #tienda2 div p{
     font-size: small;
     color: #D50A0A;
-    height: 4rem;
+    height: 3rem;
 }
-#tienda2 section~section{
+#tienda2 div section~section{
     background-color: #013369;
-    
 }
+#tienda2 div:first-child section~section h1{
+    margin-bottom: 3rem;
+}
+#tienda2 div:first-child section~section h2{
+    margin-top: 1.92rem;
+}
+
 #tienda2 div h1{
     text-transform: uppercase;
     font-size: 20pt;
@@ -76,5 +84,5 @@ figure{
     margin-top: 1rem;
 }
 #tienda2 section{
-    padding: 2em;
+    padding: 3em;
 }
