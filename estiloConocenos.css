@@ -1,0 +1,62 @@
+
+
+main{
+    font-size: 11pt;
+    color: black;
+}
+
+article>div{
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+
+}
+#estadio>figure img{
+    width: 40%;
+    height: 23rem;
+    float: left;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    
+}
+article{
+    box-shadow: black 0px 0px 1em;
+    padding: 1rem;
+}
+
+h3{
+    color: #D50A0A;
+}
+h3~ul li{
+    margin-bottom: 1rem;
+}
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#sec2{
+    width: 95%;
+    margin-top:-1.4rem ;
+}
+#sec2 ul{
+    margin-left: 2rem;
+}
+#lista2 li{
+    margin-bottom: 1rem;
+}
+.balon{
+    list-style-type: "🏉";
+}
+#reloj{
+    list-style-type: "⌛";
+}
+.muñeco{
+    list-style-type: "🏃‍♂️";
+}
+#redFlag{
+    list-style-type: "🚩";
+}
+
+
+
+
