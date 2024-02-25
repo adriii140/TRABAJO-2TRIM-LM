@@ -12,7 +12,11 @@ body {
     background-color: #eeeeee;
     color: white;
 }
-
+main>header{
+    text-align: center;
+    text-transform: uppercase;
+    color: #013369 ;
+}
 #adri {
     background-image: linear-gradient(#D50A0A, #013369);
     position:sticky;
@@ -143,71 +147,5 @@ footer>section div:nth-child(2) figure img{
 }
 #betoFoot figure img{
     width: 8em;
-}
-/*AQUÍ COMIENZAN LOS ESTILOS DEL MAIN*/
-
-main>header{
-    text-align: center;
-    text-transform: uppercase;
-    color: #013369 ;
-}
-
-main>article figure img{
-    width: 100%;
-    height: 37rem;
-}
-main article~article{
-    display: flex;
-    justify-content: space-between;
-    height: 26.5rem;
-}
-main article~article section{
-    width: 27%;
-    padding: 1rem;
-    background-color: #D50A0A;
-}
-main article~article section>h3{
-    padding: 0.3rem 0.5rem;
-    text-align: center;
-    color: #70acec ;
-    font-style: italic;
-}
-#textoMahomes{
-    text-align: left;
-    font-size: 11.5pt;
-    text-align: justify;
-}
-h3~figure{
-    float: right;
-    font-size: 11px;
-    text-align: left;
-    padding-left: 1rem;
-    color: #70acec ;
-    
-}
-#fotoMahomes{
-    width: 11rem;
-    height: 8rem;  
-    
-}
-
-main article~article section~section iframe{
-    width: 100%;
-    height: 20rem;
-}
-main article~article section~section iframe:hover{
-    opacity: 0.5;
-}
-#musical{
-    width: 100%;
-    height: 20rem;
-}
-#musical:hover{
-opacity: 0.5;
-}
-.pBajoImg{
-    font-size: 10pt;
-    text-align: center;
-    margin-top: 1.5rem;
 }
 
