@@ -63,22 +63,20 @@ main>header{
 }
 
 #beto:hover {
-
 left: 0;
 }
-
-
-
-
 #beto div{
     margin-left: 2em;
 }
+
 #beto>div span{
     color: #D50A0A ;
+    text-shadow: 0rem 0rem 0.3rem white;
 }
 #beto>div h3{
-    text-decoration: underline;
-    font-size: 20pt;
+    text-decoration:underline;
+    font-size: 15pt;
+    text-transform: uppercase;
 }
 .logosHeader{
     width: 5em;
@@ -94,6 +92,9 @@ figure{
 }
 #resultados div p{
     margin-left: 1.3em;
+}
+#resultados div:first-child>p{
+opacity: 0.5;
 }
 /*HASTA AQUI LOS CAMBIOS DE BETO  EN EL HEADER*/    
 /*Footer adri*/
@@ -134,6 +135,7 @@ footer>section div:nth-child(2) figure img{
     margin-top: 1em;
     color: #D50A0A;
     font-style: italic;
+    text-shadow: white 0rem 0rem 0.2rem;
 }
 #betoFoot figure img{
     width: 8em;
