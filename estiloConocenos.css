@@ -3,6 +3,7 @@
 main{
     font-size: 11pt;
     color: black;
+    text-align: justify;
 }
 
 article>div{
