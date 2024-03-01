@@ -1,0 +1,31 @@
+legend{
+    background-color:#D50A0A;
+    font-size: large;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+fieldset{
+    margin-top: 2rem;
+    width: 70%;
+    margin: auto;
+}
+label{
+    color: black;
+    font-weight: bold;
+}
+input{
+    height: 1rem;
+}
+fieldset div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+#field{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
