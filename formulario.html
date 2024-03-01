@@ -34,85 +34,51 @@
             </div>
         </section>
     </header>
+    <nav id="adri">
+        <div>
+            <figure>
+                <img src="./imagenes/logo.png" alt="NFL" title="NFL">
+            </figure>
+            <a href="./index.html" title="pagina de inicio">Inicio</a>
+            <a href="./conocenos.html" title="conoce nuestros origenes">Conócenos</a>
+            <a href="./productos.html" title="visita nuestros productos de merchandising">Productos comerciales</a>
+            <a href="./formulario.html" title="suscribete para recibir mas info">Contacta con nosotros</a>
+        </div>
+    </nav>
     <main>
-        <form action="" target="_blank" method="get" enctype="multipart/form-data">
-            <div class="container">
-                <fieldset>
-                    <legend>DATOS PERSONALES</legend>
-                    <div>
-                        <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre"
-                            placeholder="Tu nombre" required>
-                    </div>
-                    <div>
-                        <label for="apellidos">Apellidos:</label><input type="text" id="apellidos" name="apellidos"
-                            placeholder="Tus apellidos" required>
-                    </div>
-                    <div>
-                        <label for="email">Email:</label><input type="email" id="email" name="email"
-                            placeholder="Tu Correo" required>
-                    </div>
-                    <div>
-                        <label for="contrasena">Contraseña (mínimo 8 caracteres):</label>
-                        <input type="password" id="contrasena" name="contrasena" minlength="8" required>
-                    </div>
+       <form action="" >
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Tu nombre">
+            <label for="ape">Apellidos:</label>
+            <input type="text" name="ape" placeholder="Tus apellidos">
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" placeholder="Tu correo">
+            <label for="contraseña">Contraseña:(mínimo 8 caracteres)</label>
+            <input type="password" name="contraseña" minlength="8">
 
-
-                </fieldset>
-            </div>
-            <div class="form-container">
-                <fieldset>
-                    <legend>INFORMACIÓN ADICIONAL</legend>
-
-                    <form>
-                        <div>
-
-                            <label for="country">País</label>
-                            <select id="country" name="country">
-                                <option value="" disabled selected>-Selecciona-</option>
-                                <option value="España">España</option>
-                                <option value="Portugal">Portugal</option>
-                                <option value="Colombia">Colombia</option>
-                                <option value="Argentina">Argentina</option>
-                                <!-- Agrega opciones de países aquí -->
-                            </select>
-                        </div>
-                        <div>
-
-                            <label>Sexo</label>
-
-                            <label for="hombre">
-                                <input type="radio" id="hombre" name="hombre" value="hombre"> Hombre
-                            </label>
-
-
-                            <label for="mujer">
-                                <input type="radio" id="mujer" name="mujer" value="mujer"> Mujer
-                            </label>
-
-                            <label for="no">
-                                <input type="radio" id="no" name="no" value="no"> Prefiero no contestar
-                            </label>
-
-                        </div>
-
-                        <div>
-
-                            <label for="interes">Aspectos de Interés</label>
-                            <textarea id="interes" name="interes" rows="4"></textarea>
-                        </div>
-
-                        <div>
-
-                            <input type="checkbox" id="aceptar" name="aceptar">
-                            <label for="aceptar">Acepto las condiciones</label>
-                        </div>
-
-                    </form>
-            </div>
-            </fieldset>
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
+        </fieldset>
+        <fieldset>
+            <legend>INFORMACION ADICIONAL</legend>
+            <label for="pais">Pais:</label>
+            <select name="pais">
+                <option value="pais" selected> Seleciona</option>
+                <option value="pais">España</option>
+                <option value="pais">Francia</option>
+                <option value="pais">Alemania</option>
+            </select>
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sexo"><label for="sexo">Hombre</label>
+            <input type="radio" name="sexo"><label for="sexo">Mujer</label>
+            <input type="radio" name="sexo"><label for="sexo">Prefiero no contestar</label>
+            <label for="aspec">Apectos de interés sobre el fútbol americano</label>
+            <textarea name="aspec" ></textarea>
+            <label for="acept">Acepto las condiciones de suscripción y he leido la protección de datos</label>
+            <input type="checkbox" name="acept">
+        </fieldset>
+        <input type="submit" value="Suscribirme">
+       </form>
     </main>
     <footer>
         <section>
