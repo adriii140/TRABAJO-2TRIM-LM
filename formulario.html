@@ -73,21 +73,32 @@
             </fieldset>
             <fieldset>
                 <legend>INFORMACION ADICIONAL</legend>
-                <label for="pais">Pais:</label>
-                <select name="pais">
-                    <option value="pais" selected> Seleciona</option>
-                    <option value="pais">España</option>
-                    <option value="pais">Francia</option>
-                    <option value="pais">Alemania</option>
-                </select>
-                <label for="sexo">Sexo</label>
-                <input type="radio" name="sexo"><label for="sexo">Hombre</label>
-                <input type="radio" name="sexo"><label for="sexo">Mujer</label>
-                <input type="radio" name="sexo"><label for="sexo">Prefiero no contestar</label>
-                <label for="aspec">Apectos de interés sobre el fútbol americano</label>
-                <textarea name="aspec"></textarea>
-                <label for="acept">Acepto las condiciones de suscripción y he leido la protección de datos</label>
-                <input type="checkbox" name="acept">
+                <div id="field2">
+                    <div>
+                        <label for="pais">Pais:</label>
+                        <select name="pais">
+                            <option value="pais" selected> Seleciona</option>
+                            <option value="pais">España</option>
+                            <option value="pais">Francia</option>
+                            <option value="pais">Alemania</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo</label>
+                        <input type="radio" name="sexo"><label for="sexo">Hombre</label>
+                        <input type="radio" name="sexo"><label for="sexo">Mujer</label>
+                        <input type="radio" name="sexo"><label for="sexo">Prefiero no contestar</label>
+                    </div>
+                    <div>
+                        <label for="aspec">Apectos de interés sobre el fútbol americano</label>
+                        <textarea name="aspec"></textarea>
+                    </div>
+                    <div>
+                        <label for="acept">Acepto las condiciones de suscripción y he leido la protección de
+                            datos</label>
+                        <input type="checkbox" name="acept">
+                    </div>
+                </div>
             </fieldset>
             <input type="submit" value="Suscribirme">
         </form>
